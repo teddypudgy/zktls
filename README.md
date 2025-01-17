@@ -2,6 +2,9 @@
 
 An autonomous AI agent that promotes and educates about zkTLS technology through Twitter, making complex cryptographic concepts accessible to both technical and non-technical audiences.
 
+## About zkTLS
+zkTLS is an innovative cryptographic protocol that enhances privacy and security in network communications through zero-knowledge proofs.
+
 ## Features
 
 - Autonomous content generation about zkTLS
