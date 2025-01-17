@@ -1,0 +1,26 @@
+{
+    "name": "zkTLS Twitter AI Agent",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11",
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/github-cli:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.black-formatter",
+                "GitHub.copilot"
+            ],
+            "settings": {
+                "python.formatting.provider": "black",
+                "editor.formatOnSave": true,
+                "editor.rulers": [88],
+                "files.trimTrailingWhitespace": true
+            }
+        }
+    },
+    "postCreateCommand": "pip install -r requirements.txt",
+    "remoteUser": "vscode"
+} 
